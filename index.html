@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frozen System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amarante&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="node_modules/paper/dist/paper-full.js"></script>
+    <script src="node_modules/paperjs-offset/dist/paperjs-offset.js"></script>
+
+    <script src="snowflake.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>Fr0zenSystem</h1>
+    <canvas id="paperCanvas"></canvas>
+    <div id="menu">
+      <div>
+        <button id="generate" onclick="generate()">
+          <span class="material-icons">sync</span>
+        </button>
+        <button onclick="downloadSVGLaser()">
+          <span class="material-icons"> file_download </span>
+        </button>
+      </div>
+    </div>
+    <div id="references"><a href="https://github.com/bleeptrack/fr0zen-system-laser">code on github</a> - <a href="https://twitter.com/Bleeptrack">by bleeptrack</a></div>
+  </body>
+</html>
