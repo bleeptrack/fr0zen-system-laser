@@ -56,8 +56,8 @@ button:hover {
   border: 2px solid darkslateblue;
 }
 
-#references{
-    position: fixed;
-    bottom: 0;
-    right:0;
+#references {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }

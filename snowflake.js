@@ -299,6 +299,27 @@ class Snowflake {
     this.whitepaper.shadowColor = new Color(0, 0, 0);
     this.whitepaper.shadowBlur = 4;
     this.whitepaper.shadowOffset = new Point(2, 2);
+
+    this.clearIslands(this.whitepaper);
+  }
+
+  clearIslands(compound) {
+    compound.children = compound.children.filter(
+      (entry) => this.countContains(compound, entry) <= 1
+    );
+    console.log(compound.children.length);
+  }
+
+  countContains(compound, item) {
+    let count = 0;
+    compound.children.forEach((c) => {
+      if (c !== item) {
+        if (item.isInside(c.bounds) && c.contains(item.position)) {
+          count++;
+        }
+      }
+    });
+    return count;
   }
 
   clamp(value, min, max) {
