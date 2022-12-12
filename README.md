@@ -4,3 +4,9 @@ Fr0zenSystem is a little snowflake generator. This version is optimized to be us
 ![Cutting Process](img/laser.jpg)
 ![First half](img/blackwhite.jpg)
 ![Finished Snowflakes](img/finished.jpg)
+
+# Video:
+[![WiP Thumbnail](img/WiP61.png)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/-WHORPKPZP4))
+
+# License
+This project uses the [Blue Oak License](https://blueoakcouncil.org/license/1.0.0)
